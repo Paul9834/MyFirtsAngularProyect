@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyFirtsAngularProyect';
+  nombre = 'Paul9834';
+
+  saludar() {
+    console.log('Nombre', this.nombre);
+    alert(this.nombre);
+  }
 }
